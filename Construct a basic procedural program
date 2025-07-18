@@ -1,0 +1,16 @@
+# Define the order_lunch function (with three input parameters)
+def order_lunch(name, sandwich_type, drink):
+  lunch_order = name + ": One " + sandwich_type + " sandwich"
+  if drink:
+    lunch_order = lunch_order + " with a drink"
+  return lunch_order
+
+# Call the newly-defined function for each team member
+alice_order = order_lunch("Alice", "PB&J", True)
+venkata_order = order_lunch("Venkata", "Veggie", True)
+maria_order = order_lunch("Maria", "Reuben", False)
+
+# Print the outputs of the function calls
+print(alice_order)
+print(venkata_order)
+print(maria_order)
