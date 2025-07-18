@@ -1,0 +1,4 @@
+names_list = ["Wesley", "Amanda", "Tori", "Ngawang", "Aviva"]
+for name in names_list:
+    if name[0] == "A":  # Consider using this approach to check the first letter
+        print(name)
