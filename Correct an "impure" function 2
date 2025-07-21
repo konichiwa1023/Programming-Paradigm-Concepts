@@ -1,0 +1,12 @@
+# Define new function to scale each value
+def scale_value(value, sample_mean, scale_factor):
+    scaled_value = (value - sample_mean) / scale_factor
+    return scaled_value
+  
+# Pass in all needed variables as parameters
+def scale_list(input_list, sample_mean, scale_factor):
+    new_list = []
+    for item in input_list:
+        new_item = scale_value(item, sample_mean, scale_factor)
+        new_list.append(new_item)
+    return new_list
