@@ -1,0 +1,7 @@
+# Pass in all needed variables as parameters
+def scale_list(input_list, mean_shift, scaling_value):
+    new_list = []
+    for item in input_list:
+        new_item = (item - mean_shift) / scaling_value
+        new_list.append(new_item)
+    return new_list
