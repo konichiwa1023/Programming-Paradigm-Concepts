@@ -1,0 +1,10 @@
+def square_list(input_list):
+    new_list = []
+    # Loop through each item in the input list
+    for item in input_list:
+        # Divide each item by 100
+        new_item = item / 100
+        # Append the new item to the new list
+        new_list.append(new_item)
+    # Return the new list
+    return new_list
