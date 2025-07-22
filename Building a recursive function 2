@@ -1,0 +1,8 @@
+def recursive_factorial(n):
+    # Base case -- check base condition
+    if n == 0:
+        # Return appropriate value
+        return 1
+    # Recursive call -- call recursive_factorial again
+    else:
+        return n * recursive_factorial(n - 1)
