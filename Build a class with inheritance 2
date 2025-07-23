@@ -1,0 +1,8 @@
+# Define the Plant class
+class Plant():
+    def __init__(self, price):
+        self.price = price
+        
+# Define the Tree class (inherit from Plant)
+class Tree(Plant):
+    pass
