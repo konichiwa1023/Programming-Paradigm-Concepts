@@ -1,0 +1,8 @@
+# Define the Car class
+class Car():
+    def __init__(self, price, mileage):
+        # price is a public attribute
+        self.price = price
+        
+        # mileage is a private attribute
+        self.__mileage = mileage
