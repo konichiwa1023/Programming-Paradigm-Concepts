@@ -1,0 +1,4 @@
+# Define the Plant class
+class Plant():
+    def __init__(self, price):
+        self.price = price
