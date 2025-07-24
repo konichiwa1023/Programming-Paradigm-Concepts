@@ -1,0 +1,19 @@
+# Old procedural code
+def buy_car(budget, price):
+    if budget > price:
+        print("You can buy this car!")
+    else:
+        print("This car is too expensive for now.")
+
+# Define the Car class
+class Car:
+    # Initialize each car with a price
+    def __init__(self, price):
+        self.price = price
+    
+    # Check car price against budget
+    def buy(self, budget):
+        if budget > self.price:
+            print("You can buy this car!")
+        else:
+            print("This car is too expensive for now.")
